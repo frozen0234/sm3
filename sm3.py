@@ -98,7 +98,7 @@ def SM3(M,IV):
         V.append(message_compress(V,M,i))
     return V[n]
 
-r1 = '101'
+r1 = '616263'
 m = padding(r1)
 M = block(m)
 t = SM3(M,IV)
